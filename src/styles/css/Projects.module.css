@@ -1,0 +1,40 @@
+.h1{
+    font-size: 72px;
+  background: -webkit-linear-gradient(#eee, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.project{
+    padding-top: 1rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 5px 10px;
+    grid-gap: 10px;
+}
+
+.currproject{
+    border: 1px solid black;
+    padding: 5px 10px;
+    border-radius: 7px;
+    background-color: rgb(37, 37, 37);
+    text-decoration: none;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+a{
+    text-decoration: none;
+}
+
+.currproject h5{
+    color: blanchedalmond;
+    font-size: 0.7rem;
+}
+
+.currproject h3{
+    color: aliceblue;
+    font-family: monospace;
+}

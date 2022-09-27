@@ -1,0 +1,20 @@
+p{
+    background-color: rgb(127, 127, 127);
+    padding: 1rem 3rem;
+}
+
+.button{
+    background-color: rgb(0, 0, 0);
+    color: aliceblue;
+    width: 100px;
+}
+
+.available{
+    background-color: rgb(0, 161, 197);
+    margin: 10px 20px;
+}
+
+.unavailable{
+    background-color: rgb(152, 233, 251);
+    margin: 10px 20px;
+}
